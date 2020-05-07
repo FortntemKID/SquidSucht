@@ -20,6 +20,6 @@ if(m.content.startsWith(prefix + "nichts")){
 if(m.content.startsWith(prefix + "help")){
     m.channel.send("/ nichts - Zeigt den Bot ping an. \n/help - Zeigt alle Befehle an.")
   }
-  client.user.setActivity("squidsucht.tk 19132", {type: STREAMING})
+  client.user.setActivity("squidsucht.tk:19132", {type: STREAMING})
 });
 client.login(process.env.BOT_TOKEN);
